@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecera {
+    display: flex;
+    place-content: space-between;
+    height: 100px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+}
+
+.cabecera img {
+    margin-left: 40px;
+
+}
+
+.navegacion ul li {
+    display: inline-block;
+    padding: 18px;
+    color: white;
+
+}
+
+.navegacion ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.navegacion ul li a:hover {
+    color: rgb(3, 247, 15);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.nav1 {
+    margin-right: 100px;
+    margin: 20px;
+}
+
+#inicio_sesion {
+    background-color: #f1600b;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+#inicio_sesion:hover {
+    background-color: #0ceb05;
+    color: #080808;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+/*secciones*/
+.seccion1 {
+    background-image: url(../img/imagenes_nosotros/fondo_nosotros.jpg);
+    height: 210px;
+    text-align: center;
+    padding: 120px 500px 100px 500px;
+    color: white;
+}
+
+.seccion1 h2 {
+    font-family: cursive;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.seccion1 p {
+    font-size: 30px;
+    font-family: Tahoma;
+    margin-bottom: 20px;
+    
+}
+
+.seccion2 {
+    display: flex;
+}
+
+.seccion3 {
+    font-size: 30px;
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+    height: 100px;
+    background-color: #674D48;
+    color: white;
+
+}
+.seccion3 h2{
+    margin-top: 8px;
+}
+
+.seccion4 {
+    display: flex;
+
+}
+
+.texto {
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.img {
+    width: 50%;
+
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.texto h2 {
+    font-size: 50px;
+    margin-top: 50px;
+    font-family: cursive;
+}
+
+.texto p {
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.texto a{
+font-size: 30px;
+border: 1px solid black;
+padding: 12px;
+text-decoration: none;
+margin-top: 22px;
+display: inline-block;
+color: black;
+
+}
+/*pie de pagina*/
+footer {
+    
+    background-color: #674D48;
+    position: auto;
+    width: 100%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    text-align: center;
+}
+footer p {
+ 
+    font-size: 20px;
+    padding: 15px;
+
+}
